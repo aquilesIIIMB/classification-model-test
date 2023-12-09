@@ -1,0 +1,5 @@
+steps:
+- name: 'ubuntu'
+  script: |
+    #!/usr/bin/env bash
+    echo "Your project ID is $PROJECT_ID"

@@ -1,0 +1,59 @@
+{
+  "manifest": {
+    "technicalInformation": {
+      "projectName": "classification-model-test",
+      "appName": "iris_classification",
+      "modelingFrequency": "",
+      "predictionConsumptionFrequency": "",
+      "embeddingConsumptionFrequency": "",
+      "predictionType": {
+        "batchInference": false,
+        "onlineInference": false,
+        "vectorEngine": false
+      },
+      "modelType": {
+        "classification": false,
+        "regression": false,
+        "recommendation": false,
+        "clustering": false,
+        "timeSeries": false
+      },
+      "algorithmType": "",
+      "dataSourcesUsed": [],
+      "featureSchema": [],
+      "predictionSchema": []
+    },
+    "business": {
+      "developmentTeam": {
+        "businessUnit": "",
+        "area": "",
+        "team": "",
+        "costCenter": ""
+      },
+      "consumptionTeam": [{
+        "businessUnit": "",
+        "area": "",
+        "team": "",
+        "costCenter": "",
+        "consumptionFrequency": ""
+      }]
+    },
+    "management": {
+      "projectFocal": "", 
+      "modelingSupport": "",
+      "dataSupport": "",
+      "adminGitAccounts": ["aquilesIIIMB", "aquilesIIIMB"],
+      "viewerGitAccounts": ["apoloI", "hollyI"],
+      "sensitiveDataConsumer": {
+        "personallyIdentifiableInformation": false,
+        "financialInformation": false,
+        "healthData": false
+      },
+      "sensitiveDataExposer": {
+        "personallyIdentifiableInformation": false,
+        "financialInformation": false,
+        "healthData": false
+      }
+    }
+  }
+}
